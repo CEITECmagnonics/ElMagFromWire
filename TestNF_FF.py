@@ -11,7 +11,7 @@ mu0 = 4 * np.pi * 1e-7       # Permeability of free space (H/m)
 epsilon0 = 1 / (mu0 * c**2)    # Permittivity of free space (F/m)
 
 # RF source parameters
-f = 10e9                      # Frequency in Hz (10 GHz here)
+f = 11e9                      # Frequency in Hz (10 GHz here)
 omega = 2 * np.pi * f         # Angular frequency (rad/s)
 k = omega / c                 # Free-space wavenumber (rad/m)
 
